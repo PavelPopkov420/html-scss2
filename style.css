@@ -817,4 +817,217 @@ summary::-webkit-details-marker {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+/*--------------------------------------*/
+/*-------КОРЗИНА------------*/
+/*--------левый блок------------*/
+.top-head-cart {
+  background-color: #F8F3F4;
+}
+.top-head-cart__info {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #F16D7F;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cart-info__item {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 118px;
+  padding-bottom: 121px;
+}
+
+.cart-item {
+  display: flex;
+}
+.cart-item__left {
+  display: flex;
+  flex-direction: column;
+  gap: 41px;
+}
+.cart-item__right {
+  padding-left: 127px;
+  display: flex;
+  flex-direction: column;
+  gap: 57px;
+}
+
+.cart-product {
+  width: 632px;
+  height: 306px;
+  display: flex;
+  box-shadow: 15px 15px 15px 0px rgba(0, 0, 0, 0.1);
+}
+.cart-product__img {
+  width: 262px;
+}
+.cart-product__info {
+  width: 390px;
+  padding-left: 31px;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+.cart-product__title {
+  padding-right: 21px;
+  padding-top: 22px;
+  display: flex;
+  justify-content: space-between;
+  gap: 57px;
+}
+.cart-product__name {
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  color: #222;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.cart-product__info-oder {
+  background: #FFF;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.cart-product__text {
+  color: #575757;
+  font-family: Lato;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.cart-product__price {
+  color: #F16D7F;
+  font-family: Lato;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cart-buttons {
+  padding-top: 72px;
+  display: flex;
+  gap: 160px;
+}
+
+.button-choice {
+  border: 1px solid #A4A4A4;
+  background-color: white;
+  width: 235px;
+  height: 50px;
+}
+.button-choice__text {
+  color: #000;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.information-adress {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.information-adress__title {
+  color: #222;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.information-adress__input {
+  width: 358.986px;
+  height: 44px;
+  padding-left: 17px;
+  border: 1px solid #A4A4A4;
+}
+.information-adress__button {
+  border: 1px solid #A4A4A4;
+  background-color: white;
+  width: 101.408px;
+  height: 35px;
+  color: #4A4A4A;
+  font-family: Lato;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.information-price {
+  padding-top: 39px;
+  width: 360px;
+  height: 214px;
+  background-color: #F5F3F3;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.information-total {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.information-total__subtitle {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+  padding-right: 34px;
+}
+.information-total__title {
+  display: flex;
+  gap: 20px;
+  padding-right: 34px;
+  padding-bottom: 21px;
+}
+.information-total__subtitle-text {
+  color: #4A4A4A;
+  font-family: Lato;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.information-total__title-text {
+  color: #222;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.information-total__title-text__price {
+  color: #F16D7F;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.information-total__checkout {
+  padding-top: 17px;
+  margin-right: 43px;
+  border-top: 1px solid #E2E2E2;
+}
+.information-total__checkout__button {
+  width: 273px;
+  height: 50px;
+  background-color: #F16D7F;
+  border: 1px solid #F16D7F;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
