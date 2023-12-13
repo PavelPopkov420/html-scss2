@@ -858,11 +858,14 @@ summary::-webkit-details-marker {
   gap: 57px;
 }
 
+.cart-product:hover {
+  box-shadow: 15px 15px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
 .cart-product {
   width: 632px;
   height: 306px;
   display: flex;
-  box-shadow: 15px 15px 15px 0px rgba(0, 0, 0, 0.1);
 }
 .cart-product__img {
   width: 262px;
@@ -1030,4 +1033,135 @@ summary::-webkit-details-marker {
   background-color: #F16D7F;
   border: 1px solid #F16D7F;
   color: white;
+}
+
+/*--------------------------------------*/
+/*------регистрация----------------*/
+.top-head-reg {
+  background-color: #F8F3F4;
+}
+.top-head-reg__info {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top-head-reg__title {
+  color: #F16D7F;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.registration-content {
+  padding-top: 64px;
+  padding-bottom: 96px;
+  display: flex;
+}
+.registration-content__left {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.registration-content__name {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.registration-content__title {
+  color: #222;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.registration-content__input {
+  width: 358.986px;
+  height: 44px;
+  padding-left: 17px;
+  border: 1px solid #A4A4A4;
+}
+.registration-content__login {
+  max-width: 358px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.registration-content__help {
+  color: #B1B1B1;
+  font-family: Lato;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.registration-content__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 167px;
+  height: 50px;
+  background-color: #F16D7F;
+  border: 1px solid #F16D7F;
+  color: white;
+}
+.registration-content__sex {
+  display: flex;
+  gap: 20px;
+}
+.registration-content__sex__checkbox-text {
+  color: #000;
+  font-family: Lato;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.registration-content__checkbox {
+  display: flex;
+  gap: 10px;
+}
+.registration-content__choice-sex {
+  border-color: #A4A4A4;
+}
+.registration-content__right {
+  padding-left: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.registration-content__right_title {
+  color: #000;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.registration-content__right_subtitle {
+  color: #000;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.registration-content__right_bonus_text {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  background: url(imgs/link_style.svg) no-repeat 0 50%;
+  padding-left: 35px;
+  color: #000;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }/*# sourceMappingURL=style.css.map */
